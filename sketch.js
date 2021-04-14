@@ -63,3 +63,6 @@ slingshot.display();
 function mouseDragged(){
   Matter.Body.setPosition(ball.body, {x: mouseX , y: mouseY});
 }
+function mouseReleased(){
+  slingshot.fly
+}
